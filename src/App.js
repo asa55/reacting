@@ -4,7 +4,7 @@ import Greeting from './Greeting';
 function App() {
   return (
     <div>
-      <h1>Hello, <Greeting name={"World!"} /></h1>
+      <h1><Greeting name={"World!"} /></h1>
     </div>
   );
 }
