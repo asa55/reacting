@@ -1,11 +1,13 @@
 import React from 'react';
-import Greeting from './Greeting';
+// import Greeting from './Greeting';
+import CounterApp from './CounterApp';
 
 function App() {
   return (
-    <div>
-      <h1><Greeting name={"World!"} /></h1>
-    </div>
+    <>
+      <h1>Counter App</h1>
+      <CounterApp />
+    </>
   );
 }
 
